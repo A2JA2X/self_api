@@ -9,7 +9,7 @@ const dbName = 'self_api';
 // 新規MongoClien生成
 const client = new MongoClient(url, { useNewUrlParser: true });
 // db変数
-const db;
+let db;
 
 // 接続
 client.connect(function (err) {
