@@ -7,6 +7,10 @@ const route = '/api/v1/list';
 //ポート番号
 const port = 3000;
 
+app.get(route, (req, res) => {
+
+});
+
 app.listen(port, () => {
   console.log('Listening on port: ' + port);
 });
